@@ -1,0 +1,123 @@
+.contact-main-cantainer {
+    background-color: rgba(245, 4, 4, 0.621);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-paragraph {
+    width: 425px;
+    height: 105.5vh;
+    background: whitesmoke;
+    border-right: 2px solid  rgba(245, 4, 4, 0.2);
+    box-shadow: 10px 5px 5px rgba(205, 6, 6, 0.2);
+}
+
+.contact-paragraph div {
+    color: green;
+    padding: 10px;
+    margin: 4px;
+    flex-direction: row;
+}
+
+.contact-paragraph div p {
+    font-weight: 450;
+    color: black;
+    word-spacing: 0.1em;
+    letter-spacing: 0.05em;
+    padding-left: 10px;
+}
+
+.contact-datials .contact-address p {
+    padding-left: 45px;
+}
+
+.contact-datials>.contact-heading {
+    width: 100%;
+    background: rgba(0, 0, 255, .2);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.contact-address p {
+    margin-top: -45px;
+}
+
+.contact-inpute {
+    width: 425px;
+    height: 100%;
+    padding: 56px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px rgba(205, 6, 6, 0.2);
+}
+
+.contact-inpute input {
+    color: black;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+.contact-inpute textarea{
+    resize: none;
+   margin-bottom: 10px;
+}
+
+.contact-inpute h3{
+    width: 100%;
+    background: rgba(0, 0, 255, .2);
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: -35px;
+    margin-bottom: 15px;
+}
+
+.contact-inpute button{
+    margin-top: 23px;
+    margin-left: 123px;
+    margin-right: 123px;
+    border-radius: 3px;
+    padding: 3px;
+    border: none;
+    background:  rgba(0, 0, 255, 0.2);
+}
+
+.contact-inpute button:hover{
+    background: rgba(0, 0, 255, 0.3);
+}
+
+.contact-datials {
+    flex-direction: column;
+    padding: 1em;
+}
+
+.contact-datials div p {
+    padding-left: 54px;
+    margin-top: -31px;
+}
+
+.contact-link {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    list-style-type: none;
+    padding-left: 1em;
+
+}
+
+.contact-link li {
+    padding-left: 2em;
+}
+
+@media only screen and (max-width : 700px) {
+    .contact-main-cantainer {
+        flex-direction: column;
+    }
+    .contact-paragraph {
+        border-right: none;
+        border-bottom: 5px solid  rgba(245, 4, 4, 0.2);
+    }
+}

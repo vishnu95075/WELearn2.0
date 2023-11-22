@@ -1,0 +1,50 @@
+.registration-LogIn-form {
+    margin-top: 1em;
+    margin-left: 35vw;
+    margin-right: 35vw;
+}
+
+.registration-LogIn-form form h3{
+    margin-top: -1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    box-shadow: inset;
+    border-radius: 5px;
+    background: rgba(111, 134, 111,0.2);
+    padding: 7px;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.registration-LogIn-form form button {
+    margin-left: 43%;
+    padding-top: 5px;
+    margin-bottom: -56px;
+}
+
+.registration-LogIn-form form{
+    margin-top: 1em;
+}
+.registration-LogIn-form form p{
+    margin-top: 45px;
+}
+.registration-LogIn-form form div label{
+    letter-spacing: 0.5px;
+}
+@media only screen and (max-width: 700px) {
+    .registration-LogIn-form {
+        margin-top: 1em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    .registration-LogIn-form form h3{
+        margin-top: -1em;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .registration-LogIn-form form button {
+        margin-left: 43%;
+        margin-bottom: -26px;
+    }
+   
+}

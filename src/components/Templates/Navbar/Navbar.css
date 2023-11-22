@@ -1,0 +1,48 @@
+.navebar-profile-img-img-cropper {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.navbar-toggler{
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+.navbar {
+  background-color: rgba(21, 21, 245, 0.84);
+}
+
+.navbar a {
+  color: rgba(253, 253, 253, 0.836);
+}
+.navbar a:hover {
+  color: #fff;
+}
+
+.navbar .active {
+  background-color: rgba(21, 21, 245, 0);
+}
+.navbar-nav li{
+  margin-left: 15px;
+}
+
+.navbar-nav li a:hover {
+  color: #fff;
+  background-color: rgba(21, 21, 245, 0.991);
+  border-radius: 7px;
+}
+
+.navbar-nav li .active {
+  background-color: rgb(3, 3, 245);
+  border-radius: 7px;
+}
+
+
+@media only screen and (max-width:700px) {
+  .navbar-nav li{
+    margin-left: 0px;
+  }
+}
